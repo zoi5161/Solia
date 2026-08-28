@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #3d2b26;
+  --color-brand-light: #5a4038;
+  --color-gold: #f2928a;
+  --color-gold-dark: #d9695f;
+
+  --font-sans: "Plus Jakarta Sans", system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-brand);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif {
+  font-feature-settings: "lnum";
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeInUp 0.9s ease forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease forwards;
+}
+
+@keyframes zalo-wave-1 {
+  0% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+@keyframes zalo-wave-2 {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(2.2);
+    opacity: 0;
+  }
+}
+
+.zalo-wave-1 {
+  animation: zalo-wave-1 1.8s ease-out infinite;
+}
+
+.zalo-wave-2 {
+  animation: zalo-wave-2 1.8s ease-out infinite;
+  animation-delay: 0.6s;
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+.marching-ants {
+  stroke-dasharray: 6 6;
+  animation: marching-ants 1.2s linear infinite;
+}
+
+.accordion-content {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s ease;
+}
+
+.accordion-content.open {
+  grid-template-rows: 1fr;
+}
+
+.accordion-inner {
+  overflow: hidden;
+}
+
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-brand-light) transparent;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-light);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: padding-box;
+}
