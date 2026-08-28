@@ -428,24 +428,24 @@ function Hero({ data }) {
         alt={data.name}
         className="absolute inset-0 w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-brand/35 via-brand/20 to-brand/55" />
+      <div className="absolute inset-0 bg-gradient-to-b from-brand/55 via-brand/45 to-brand/70" />
 
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
         <span
           className="animate-fade-up text-gold uppercase tracking-[0.3em] text-base md:text-xl font-semibold mb-4"
-          style={{ textShadow: "0 2px 8px rgba(0,0,0,0.45)" }}
+          style={{ textShadow: "0 1px 3px rgba(0,0,0,0.8), 0 2px 12px rgba(0,0,0,0.6)" }}
         >
           Chuẩn sống thịnh vượng
         </span>
         <h1
           className="animate-fade-up text-4xl md:text-6xl font-bold text-white max-w-4xl"
-          style={{ textShadow: "0 2px 16px rgba(0,0,0,0.5)" }}
+          style={{ textShadow: "0 2px 4px rgba(0,0,0,0.8), 0 4px 24px rgba(0,0,0,0.6)" }}
         >
           {data.name}
         </h1>
         <p
           className="animate-fade-up text-white/90 mt-5 max-w-2xl text-base md:text-lg"
-          style={{ textShadow: "0 1px 6px rgba(0,0,0,0.45)" }}
+          style={{ textShadow: "0 1px 3px rgba(0,0,0,0.8), 0 2px 10px rgba(0,0,0,0.55)" }}
         >
           {data.shortDescription}
         </p>
