@@ -534,7 +534,7 @@ function ProjectInfo({ data }) {
             ))}
           </div>
 
-          <div className="grid grid-cols-2 gap-5">
+          <div className="h-full grid grid-cols-2 content-center gap-3">
             {data.highlights.map((h) => (
               <div
                 key={h.label}
@@ -549,37 +549,6 @@ function ProjectInfo({ data }) {
               </div>
             ))}
           </div>
-        </div>
-      </div>
-    </section>
-  );
-}
-
-/* ------------------------------------------------------------------ */
-/* Progress                                                            */
-/* ------------------------------------------------------------------ */
-
-function Progress({ data }) {
-  return (
-    <section className="bg-white py-20 px-6 md:px-12">
-      <div className="max-w-6xl mx-auto">
-        <SectionHeading title={data.title} />
-        <div className="max-w-3xl mx-auto flex flex-col gap-4 text-center mb-12">
-          {data.paragraphs.map((p, i) => (
-            <p key={i} className="text-brand/70" style={{ fontSize: "1.0625rem", lineHeight: 1.75 }}>
-              {p}
-            </p>
-          ))}
-        </div>
-        <div className="grid md:grid-cols-2 gap-6">
-          {data.images.map((src) => (
-            <Img
-              key={src}
-              src={src}
-              zoomable
-              className="w-full aspect-video object-cover rounded-2xl shadow-lg"
-            />
-          ))}
         </div>
       </div>
     </section>
@@ -1297,10 +1266,6 @@ function Footer({ data, logo, name }) {
             <a href={`tel:${data.hotline}`} className="text-gold-dark font-bold text-lg">
               {data.hotline}
             </a>
-            <p className="text-brand/60 text-sm mt-3">Email</p>
-            <a href={`mailto:${data.email}`} className="text-brand font-medium">
-              {data.email}
-            </a>
           </div>
         </div>
         <div className="border-t border-brand/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-sm text-brand/50">
@@ -1633,7 +1598,6 @@ export default function LandingPage() {
         <Hero data={data} />
         <Intro data={data} />
         <ProjectInfo data={data} />
-        <Progress data={data.progress} />
         <SalesPolicy data={data.salesPolicy} />
         <LeadFormSection id="lead-1" data={data.cta} source="lead-1" />
         <Location data={data.location} />

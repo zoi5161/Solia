@@ -30,17 +30,7 @@ const mockData = {
     { label: "Chính sách xây dựng", value: "Nhà xây sẵn · Nhà giãn xây tiến độ đến 36 tháng" },
     { label: "Giá bán", value: "Chỉ từ 3,8 tỷ/căn (đã gồm VAT, nhà 1 trệt 3 lầu)" },
     { label: "Thanh toán", value: "30 triệu booking · 20% ký HĐMB · chia nhỏ đến 36 tháng" },
-    { label: "Ngân hàng đồng hành", value: "MB · Vietcombank · VietinBank · BIDV · HDBank · LPBank · MSB · Eximbank · Shinhan Bank · PVcomBank" },
   ],
-  progress: {
-    title: "TIẾN ĐỘ DỰ ÁN",
-    paragraphs: [
-      "Khu đô thị The Solia đã hoàn thiện 100% hạ tầng kỹ thuật, đường giao thông nội khu Đại lộ Grand Avenue và Đại lộ Sun Avenue cùng hệ thống cây xanh, cảnh quan ven sông.",
-      "Hệ tiện ích All-in-One đã đưa vào vận hành thực tế: hồ bơi, tổ hợp thể thao, công viên nhạc nước, khu vui chơi thiếu nhi - đóng vai trò điểm neo thu hút cư dân về sinh sống ngay từ giai đoạn đầu.",
-      "Phòng khám đa khoa Tâm An - Solia dự kiến hoạt động Quý II/2026, cùng hệ thống trường quốc tế và trung tâm thương mại Solia Plaza đang được hoàn thiện đồng bộ.",
-    ],
-    images: ["/images/tien-do-1", "/images/tien-do-2"],
-  },
   salesPolicy: {
     title: "CHÍNH SÁCH BÁN HÀNG",
     items: [
@@ -59,7 +49,7 @@ const mockData = {
     title: "ĐĂNG KÝ NHẬN BẢNG GIÁ & CHÍNH SÁCH BÁN HÀNG MỚI NHẤT",
     subtitle:
       "Để lại thông tin để chuyên viên tư vấn Genera by The Solia liên hệ hỗ trợ trong thời gian sớm nhất.",
-    hotline: "[ĐIỀN: 0000 000 000]",
+    hotline: "0933999893",
     note: "Hotline tư vấn 24/7",
   },
   location: {
@@ -339,12 +329,14 @@ const mockData = {
   consultant: {
     title: "NGƯỜI TƯ VẤN",
     image: "/images/tu-van",
-    name: "[ĐIỀN: Họ và tên]",
-    role: "Chuyên viên tư vấn dự án Genera by The Solia",
-    phone: "[ĐIỀN: 0000 000 000]",
+    name: "Nguyễn Bảo Trung",
+    role: "CEO",
+    phone: "0933999893",
     description: [
-      "Với kinh nghiệm tư vấn bất động sản tại khu vực Bến Lức - Long An, tôi cam kết đồng hành và mang đến những thông tin chính xác, minh bạch nhất về dự án Genera by The Solia.",
-      "Hãy liên hệ để được tư vấn chi tiết về chính sách bán hàng, bảng giá và pháp lý dự án.",
+      "Tôi có nhiều năm kinh nghiệm tư vấn các dự án bất động sản nhà phố và đô thị quy mô lớn tại khu vực Tây Nam TP.HCM và Long An, đồng hành cùng hàng trăm khách hàng lựa chọn được sản phẩm phù hợp nhất với nhu cầu an cư và đầu tư.",
+      "Tại Genera by The Solia, tôi đã hỗ trợ nhiều khách hàng lựa chọn được sản phẩm phù hợp - từ Signature Edition, Grand Edition đến Legacy Edition - dựa trên đúng nhu cầu ở thực và mục tiêu đầu tư của từng người.",
+      "Theo tôi đánh giá, Bến Lức sẽ là tâm điểm phát triển mới của khu vực Tây Nam TP.HCM khi hạ tầng Vành đai 3, Vành đai 4 và cao tốc Bến Lức - Long Thành đồng loạt về đích. Dự án hiện mở bán giai đoạn đầu, dư địa tăng giá còn rất lớn.",
+      "Hãy liên hệ ngay để được tư vấn chi tiết về chính sách thanh toán, chọn căn phù hợp và nhận giỏ hàng độc quyền sớm nhất. Quý khách có thể gọi ngay để được hỗ trợ:",
     ],
   },
   popup: {
@@ -355,12 +347,11 @@ const mockData = {
       { label: "Cam kết thuê", value: "12tr/th", sub: "x 24 tháng" },
     ],
   },
-  zalo: "https://zalo.me/0000000000",
+  zalo: "https://zalo.me/0933999893",
   footer: {
     company: "Solia Group",
     address: "Khu đô thị The Solia, mặt tiền Tỉnh lộ 830, Bến Lức, Long An",
-    hotline: "[ĐIỀN: 0000 000 000]",
-    email: "[ĐIỀN: contact@thesolia.vn]",
+    hotline: "0933999893",
     copyright: "© 2026 Genera by The Solia. Mọi quyền được bảo lưu.",
   },
   theme: {
