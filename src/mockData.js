@@ -6,7 +6,7 @@ const mockData = {
     "Bộ sưu tập nhà phố theo chuẩn sống Tư Dinh Đa Nhiệm, kiến tạo trên nền tảng khu đô thị The Solia quy hoạch đồng bộ, mặt tiền TL830 - Bến Lức.",
   badges: [
     { label: "Giá bán", value: "Chỉ từ 3,8 tỷ/căn" },
-    { label: "Vốn ban đầu", value: "Chỉ từ 1,2 tỷ (20% ký HĐ)" },
+    { label: "Loại hình sản phẩm", value: "Nhà phố thương mại" },
     { label: "Cam kết thuê lại", value: "12 triệu/tháng x 24 tháng" },
   ],
   heroImage: "/images/hero",
@@ -49,7 +49,7 @@ const mockData = {
     title: "ĐĂNG KÝ NHẬN BẢNG GIÁ & CHÍNH SÁCH BÁN HÀNG MỚI NHẤT",
     subtitle:
       "Để lại thông tin để chuyên viên tư vấn Genera by The Solia liên hệ hỗ trợ trong thời gian sớm nhất.",
-    hotline: "0933999893",
+    hotline: "0912351399",
     note: "Hotline tư vấn 24/7",
   },
   location: {
@@ -329,9 +329,9 @@ const mockData = {
   consultant: {
     title: "NGƯỜI TƯ VẤN",
     image: "/images/tu-van",
-    name: "Nguyễn Bảo Trung",
+    name: "Nguyễn Minh Vương",
     role: "CEO",
-    phone: "0933999893",
+    phone: "0912351399",
     description: [
       "Tôi có nhiều năm kinh nghiệm tư vấn các dự án bất động sản nhà phố và đô thị quy mô lớn tại khu vực Tây Nam TP.HCM và Long An, đồng hành cùng hàng trăm khách hàng lựa chọn được sản phẩm phù hợp nhất với nhu cầu an cư và đầu tư.",
       "Tại Genera by The Solia, tôi đã hỗ trợ nhiều khách hàng lựa chọn được sản phẩm phù hợp - từ Signature Edition, Grand Edition đến Legacy Edition - dựa trên đúng nhu cầu ở thực và mục tiêu đầu tư của từng người.",
@@ -347,11 +347,11 @@ const mockData = {
       { label: "Cam kết thuê", value: "12tr/th", sub: "x 24 tháng" },
     ],
   },
-  zalo: "https://zalo.me/0933999893",
+  zalo: "https://zalo.me/0912351399",
   footer: {
     company: "Solia Group",
     address: "Khu đô thị The Solia, mặt tiền Tỉnh lộ 830, Bến Lức, Long An",
-    hotline: "0933999893",
+    hotline: "0912351399",
     copyright: "© 2026 Genera by The Solia. Mọi quyền được bảo lưu.",
   },
   theme: {
