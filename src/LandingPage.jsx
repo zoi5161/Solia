@@ -9,6 +9,9 @@ import {
 } from "react";
 import mockData from "./mockData.js";
 
+const LEAD_ENDPOINT =
+  "https://script.google.com/macros/s/AKfycbylzD2IHsMVweN9-HAL4kXoYfMMrZvqNRdmXNhA_pHZGd6mnyZ2zUqL9jjt3e57z51x/exec";
+
 /* ------------------------------------------------------------------ */
 /* Img - smart image component with extension fallback + lightbox     */
 /* ------------------------------------------------------------------ */
@@ -167,9 +170,9 @@ function LeadForm({ source, submitLabel = "Đăng ký nhận tư vấn", theme =
 
     setStatus("loading");
     try {
-      await fetch("/api/lead", {
+      await fetch(LEAD_ENDPOINT, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify({
           projectName: mockData.name,
           createdAt: new Date().toISOString(),
@@ -1453,9 +1456,9 @@ function PopupForm({ data, visible, onOpen, onClose }) {
     }
     setStatus("loading");
     try {
-      await fetch("/api/lead", {
+      await fetch(LEAD_ENDPOINT, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
         body: JSON.stringify({
           projectName: mockData.name,
           createdAt: new Date().toISOString(),
