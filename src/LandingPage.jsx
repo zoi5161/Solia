@@ -1341,7 +1341,7 @@ function FloatingCTAs({ zalo, onOpenPopup }) {
             <svg viewBox="0 0 24 24" className="h-6 w-6 shrink-0" fill="currentColor">
               <path d="M12 2C6.48 2 2 6.03 2 11c0 2.86 1.48 5.41 3.79 7.06-.12.98-.5 2.32-1.29 3.53a.4.4 0 0 0 .43.6c1.6-.32 3.16-1.05 4.19-1.72.92.22 1.89.33 2.88.33 5.52 0 10-4.03 10-9S17.52 2 12 2Z" />
             </svg>
-            TƯ VẤN QUA ZALO VỚI CEO
+            TƯ VẤN QUA ZALO VỚI GDKD
           </a>
 
           <button

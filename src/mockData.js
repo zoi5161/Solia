@@ -330,7 +330,7 @@ const mockData = {
     title: "NGƯỜI TƯ VẤN",
     image: "/images/tu-van",
     name: "Nguyễn Minh Vương",
-    role: "CEO",
+    role: "Giám đốc kinh doanh",
     phone: "0912351399",
     description: [
       "Tôi có nhiều năm kinh nghiệm tư vấn các dự án bất động sản nhà phố và đô thị quy mô lớn tại khu vực Tây Nam TP.HCM và Long An, đồng hành cùng hàng trăm khách hàng lựa chọn được sản phẩm phù hợp nhất với nhu cầu an cư và đầu tư.",
